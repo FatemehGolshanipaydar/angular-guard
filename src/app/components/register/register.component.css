@@ -1,0 +1,17 @@
+::placeholder {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+form {
+  width: 370px;
+  margin: auto;
+  margin-top: calc(50vh - 230px);
+  background-color: #fff8f8;
+  border: 1px solid #d3cccc;
+  border-radius: 5px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
